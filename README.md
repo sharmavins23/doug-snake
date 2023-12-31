@@ -15,6 +15,7 @@ of DougDoug's sequel to Snake.
 ### Currently Added Features
 
 -   The initial game of snake is completed, with a full (basic) feature set.
+-   Sound effects play when an apple is picked up.
 
 ### Features to be Added
 
