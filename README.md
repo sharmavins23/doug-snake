@@ -7,7 +7,8 @@ While his video's implementation was fairly lackluster, I felt the concept of a
 Snake sequel with a variety of questionable additions far too enjoyable to pass
 up.
 
-As such, here is my implementation of DougDoug's sequel to Snake.
+As such, [here is my implementation](https://sharmavins23.github.io/doug-snake/)
+of DougDoug's sequel to Snake.
 
 ## Features
 
