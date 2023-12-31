@@ -36,6 +36,20 @@ of DougDoug's sequel to Snake.
 -   The color of the snake changes every frame. There is a 1/10 chance that
     coloration is 'rainbow'.
 
+## Credits
+
+Obviously, credits to DougDoug's YouTube channel for the idea. I simply worked
+on the implementation in VanillaJS.
+
+Sound effects are downloaded through [Cobalt Tools](https://cobalt.tools/). The
+following media were used in this project:
+
+-   [Retro Game Coin Sound Effect](https://www.youtube.com/watch?v=88Icb7OKexU)
+    from
+    [Free Effects For Clips and Ambient Music and Sound](https://www.youtube.com/@FreeEffectsandAmbientMusic)
+-   [8 Bit Pop Sound Effect](https://www.youtube.com/watch?v=9zT6s0MaLdY) from
+    [House of Sound FX](https://www.youtube.com/@houseofsoundfx2427)
+
 # License TL;DR
 
 This project is distributed under the MIT license. This is a paraphrasing of a

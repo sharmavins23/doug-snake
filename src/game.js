@@ -8,11 +8,16 @@ let time = 0; // Current time (in frames)
 
 let boxSize = 20; // Size of each box in the grid
 
+// * Snake data
 let snakePositions = [];
 let snakeLength = 0;
 let currentDirection = "right";
 
+// * Apple data
 let applePosition = {};
+
+// * Audio
+let coinAudio = new Audio("sound/retro-game-coin.mp3");
 
 drawGame(); // Start drawing!
 
@@ -235,6 +240,8 @@ function drawCall() {
     // If the snake eats the apple, increment its length
     if (checkAppleCollision()) {
         snakeLength += 1;
+        // Play the coin sound effect
+        coinAudio.play();
         // Make a new apple
         dropNewApple();
     }
