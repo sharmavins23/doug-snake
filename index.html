@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/game.css" />
+
+        <title>DougDoug's Sequel to Snake</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="magic-text">DougDoug's Sequel to Snake</h1>
+            <p>
+                I was watching random YouTube videos when I came across
+                <a href="https://www.youtube.com/@DougDoug">DougDoug</a>'s
+                latest creation,
+                <a href="https://www.youtube.com/watch?v=YnN6eBamwj4"
+                    >I forced ChatGPT to make a sequel to Snake</a
+                >. While his video's implementation was fairly lackluster, I
+                felt the concept of a Snake sequel with a variety of
+                questionable additions far too enjoyable to pass up.
+            </p>
+            <p>
+                As such, here is my implementation of DougDoug's sequel to
+                Snake. Click the game to start. Press the spacebar or click to
+                pause, and use the WASD or arrow keys to move. Enjoy!
+            </p>
+        </header>
+
+        <canvas id="gameCanvas" width="600" height="600" onclick="playPause()">
+        </canvas>
+
+        <script src="src/game.js"></script>
+    </body>
+</html>

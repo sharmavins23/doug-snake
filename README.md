@@ -13,11 +13,10 @@ As such, here is my implementation of DougDoug's sequel to Snake.
 
 ### Currently Added Features
 
--   Nothing!
+-   The initial game of snake is completed, with a full (basic) feature set.
 
 ### Features to be Added
 
--   The game of Snake, but actually working!
 -   When the game ends and you lose, the
     [clip](https://www.youtube.com/watch?v=MS8OawQegYE) "Snake?! SNAAAAKE!" from
     Metal Gear Solid (1998) plays.

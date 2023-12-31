@@ -1,0 +1,38 @@
+html {
+    /* Color palette suggested by ChatGPT */
+    --primary-orange: #e67e22;
+    --accent-green: #2ecc71;
+    --highlight-yellow: #f1c40f;
+    --text-black: #2c3e50;
+    --text-darker-black: #1a2533;
+    --text-light-gray: #bdc3c7;
+    --text-lighter-gray: #ecf0f1;
+    --background-cream: #f9ebc4;
+    --background-dark-gray: #34495e;
+
+    --bg-color: var(--background-dark-gray);
+    --text-color: var(--text-lighter-gray);
+    --text-hover-color: var(--text-light-gray);
+
+    --transition-time: 0.5s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
