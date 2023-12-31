@@ -47,8 +47,6 @@ following media were used in this project:
 -   [Retro Game Coin Sound Effect](https://www.youtube.com/watch?v=88Icb7OKexU)
     from
     [Free Effects For Clips and Ambient Music and Sound](https://www.youtube.com/@FreeEffectsandAmbientMusic)
--   [8 Bit Pop Sound Effect](https://www.youtube.com/watch?v=9zT6s0MaLdY) from
-    [House of Sound FX](https://www.youtube.com/@houseofsoundfx2427)
 
 # License TL;DR
 
