@@ -5,7 +5,9 @@ I was watching random YouTube videos when I came across
 [I forced ChatGPT to make a sequel to Snake](https://www.youtube.com/watch?v=YnN6eBamwj4).
 While his video's implementation was fairly lackluster, I felt the concept of a
 Snake sequel with a variety of questionable additions far too enjoyable to pass
-up.
+up. My aim isn't on improving each and every feature, but simply adding them in
+a way that 'works' well enough while still encapsulating the chaotic nature of
+the original work.
 
 As such, [here is my implementation](https://sharmavins23.github.io/doug-snake/)
 of DougDoug's sequel to Snake.
@@ -16,12 +18,12 @@ of DougDoug's sequel to Snake.
 
 -   The initial game of snake is completed, with a full (basic) feature set.
 -   Sound effects play when an apple is picked up.
-
-### Features to be Added
-
 -   When the game ends and you lose, the
     [clip](https://www.youtube.com/watch?v=MS8OawQegYE) "Snake?! SNAAAAKE!" from
     Metal Gear Solid (1998) plays.
+
+### Features to be Added
+
 -   The snake is represented by Guy Fieri.
 -   Food runs away from the snake.
 -   The game has RPG-like stats. When you level up, the Minecraft
@@ -48,6 +50,8 @@ following media were used in this project:
 -   [Retro Game Coin Sound Effect](https://www.youtube.com/watch?v=88Icb7OKexU)
     from
     [Free Effects For Clips and Ambient Music and Sound](https://www.youtube.com/@FreeEffectsandAmbientMusic)
+-   [Metal Gear Solid Game Over screen [Clean background]](https://www.youtube.com/watch?v=MS8OawQegYE)
+    from [Badass Explosion Productions](https://www.youtube.com/@TheScarface43)
 
 # License TL;DR
 

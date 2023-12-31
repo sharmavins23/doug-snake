@@ -16,8 +16,13 @@ let currentDirection = "right";
 // * Apple data
 let applePosition = {};
 
+// * Images
+let gameOverImage = new Image(480, 360);
+gameOverImage.src = "img/mgs-game-over.png";
+
 // * Audio
 let coinAudio = new Audio("sound/retro-game-coin.mp3");
+let gameOverAudio = new Audio("sound/snake-game-over.mp3");
 
 drawGame(); // Start drawing!
 
@@ -76,11 +81,17 @@ function drawApple() {
 
 // Draw "Game Over!" above the center of the canvas
 function drawGameOver() {
-    ctx.fillStyle = "white";
-    ctx.font = "30px Roboto";
-    ctx.textAlign = "center";
-    ctx.fillText("Game Over!", canvas.width / 2, canvas.height / 2 - 50);
+    gameOverAudio.play();
 
+    // Draw the game over image
+    ctx.drawImage(
+        gameOverImage,
+        canvas.width / 2 - gameOverImage.width / 2,
+        canvas.height / 2 - gameOverImage.height / 2 - 80
+    );
+
+    ctx.fillStyle = "white";
+    ctx.textAlign = "center";
     ctx.font = "20px Roboto";
     ctx.fillText(
         "Score: " + (snakeLength - 1),
